@@ -81,11 +81,16 @@ defaultNeedleParams
   called \code{needwunQS} that provided a simple gap implementation of
   Needleman-Wunsch, similar to the one presented here. That function has been
   deprecated in favor of a more elaborate interface called
-  \code{\link[Biostrings]{pairwiseAlignment}} that incorporates a variety of
+  \code{pairwiseAlignment} that incorporates a variety of
   other alignment methods in addition. While \code{pairwiseAlignment} is much
   more useful for applications to biological sequences, it is serious overkill
   for the application we have in mind for matching cell line or other sample
-  names.
+  names. And, because BioConductor apparently doesn't beleive in
+  backwards compatibility in any form, they have recently moved the
+  \code{pairwiseAlignment} function out of the \code{Biostrings} package
+  into a new pacakge called \code{pwalign}. As a result, I haven't
+  provided a link here, since there is no apparent way to make that work
+  in both older and newer versions of R. 
 }
 \examples{
 data(cellLineNames)

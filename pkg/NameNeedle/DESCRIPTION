@@ -1,6 +1,6 @@
 Package: NameNeedle
-Version: 1.2.8
-Date: 2025-04-08
+Version: 1.2.10
+Date: 2026-03-13
 Title: Using Needleman-Wunsch to Match Sample Names
 Authors@R: person(given = c("Kevin", "R."), family = "Coombes",
                   role = c("aut", "cre"), email = "krc@silicovore.com")
